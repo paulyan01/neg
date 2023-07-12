@@ -3,6 +3,7 @@ resource "google_compute_network_endpoint_group" "neg" {
   network      = google_compute_network.default.id
   subnetwork   = google_compute_subnetwork.default.id
   default_port = "90"
+  project      = "var.project"
   zone         = "us-central1-a"
 }
 resource "google_compute_network_endpoint_group" "neg_00" {
@@ -10,6 +11,7 @@ resource "google_compute_network_endpoint_group" "neg_00" {
   network      = google_compute_network.default.id
   subnetwork   = google_compute_subnetwork.default.id
   default_port = "90"
+  project      = "var.project"
   zone         = "northamerica-northeast1-a"
 }
 resource "google_compute_network" "default" {

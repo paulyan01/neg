@@ -1,4 +1,1 @@
-variable "project" {}
-variable "self_link" {}
-variable "size" {}
-
+variable "project" {test-02-12345}

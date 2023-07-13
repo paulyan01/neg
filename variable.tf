@@ -1,1 +1,4 @@
-variable "project" {test-02-12345}
+variable "project" {
+
+type=string
+default="test-02-12345"}

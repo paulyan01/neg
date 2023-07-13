@@ -13,7 +13,7 @@ resource "google_compute_network_endpoint_group" "neg_00" {
   zone         = "northamerica-northeast1-a"
 }
 resource "google_compute_network" "default" {
-  name                    = "neg-network-01"
+  name                    = "neg-network"
   auto_create_subnetworks = false
 }
 
